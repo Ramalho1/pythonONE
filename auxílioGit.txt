@@ -1,0 +1,8 @@
+	Usamos sempre ao iniciar um novo repositório
+
+git init
+git add .
+git commit -m "primeira versão do site"
+git branch -M main
+git remote add origin https://github.com/SEU_USUARIO/meu-site.git
+git push -u origin main
