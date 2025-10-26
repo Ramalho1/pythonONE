@@ -77,18 +77,18 @@ if numero1 % 2 ==0:
 else: print (f"o primeiro número que é {numero1} é ímpar")
 time.sleep(2)
 print(f"""
-operação de soma será: {resultado2}
-operação de subtração será: {resultado3}
-operação de multiplicação será: {resultado4}
-operação de divisão será: {resultado5}
-operação de potência será: {resultado6} 
+operação de soma será: {resultado1}
+operação de subtração será: {resultado2}
+operação de multiplicação será: {resultado3}
+operação de divisão será: {resultado4}
+operação de potência será: {resultado5} 
+operação de radiciação será: {resultado6}
 operação de radiciação será: {resultado7}
-operação de radiciação será: {resultado8}
       """) #rever os cálculos de potência
 time.sleep(2)
 
 #Operação com números digitados seguidos
-n1, n2 = input("digite dois números seguidos, digitando espaço entre eles").split()#dividir
+n1, n2 = input("digite dois números seguidos, digitando espaço entre eles ").split()#dividir
 n1 = float(n1)
 n2 = float(n2)
 n3 = n1 + n2 
@@ -106,7 +106,7 @@ print("Digite Cinco frutas separadas por vírgula")
 frutas2=[]
 
 for i in range(5):
-    fruta = input(f"Digite a {i+1}° fruta")
+    fruta = input(f"Digite a {i+1}° fruta ->")
     frutas2.append(fruta)  #método que adicionar elementos ao final da lista
 print(f"As frutas são: {frutas2}")
 
